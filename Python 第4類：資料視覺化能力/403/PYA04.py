@@ -23,7 +23,7 @@ plt.subplot(1, 2, 1)
 xticks = range(0, len(labels)) # 設定 X 軸刻度範圍
 # 長條圖以labels為X軸，sizes為Y軸，各長條顏色為藍色（blue）
 plt.xticks(xticks, labels)
-plt.bar(labels, sizes, color = 'blue') # 水平軸、垂直軸、長條顏色
+plt.bar(labels, sizes, color = 'blue') # 水平軸類別、數據、長條顏色
 
 # 圓餅圖 位置
 plt.subplot(1, 2, 2)
